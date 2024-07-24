@@ -1,0 +1,41 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.profile{
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 30px;
+   
+
+}
+.cover{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+   
+    
+    
+}
+.user{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -60px;
+    left: 180px;
+    border: 5px solid white;
+}
+.box-card{
+    width: 500px;
+    border: 1px solid lightgray;
+    height: 500px;
+    margin: 30px auto;
+    border-radius: 30px;
+}
+.content{
+    margin: 110px;
+    text-align: center;
+}
